@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Lets Gtok</title>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+
+  <body>
+    <!-- partial:index.partial.html -->
+    <nav class="nav-menu">
+      <div class="nav-menu__icon">
+        <span class="fas fa-bars"></span>
+      </div>
+      <div class="nav-menu__logo">Lets Gtok</div>
+
+      <div class="nav-menu__nav-items">
+        <li><a href="#">For Business</a></li>
+        <li><a href="#" class="nav-menu__nav-items__active">Blogs</a></li>
+        <li><a href="#">Carnivals</a></li>
+        <li><a href="#">Careers</a></li>
+      </div>
+
+      <div class="nav-menu__logout-icon">
+        <span class="fas fa-sign-out-alt"></span>
+      </div>
+      <div class="nav-menu__cancel-icon">
+        <span class="fas fa-times"></span>
+      </div>
+    </nav>
+
+    <div class="container-fluid">
+      <div class="section-banner">
+        <div class="row align-items-center">
+          <div
+            class="col-12 col-sm-4 left-block"
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+          >
+            <h1 class="header">
+              Feelings <br />
+              <div class="header">are assets</div>
+            </h1>
+            <div class="description">
+              A digital assets program to share and trade feelings.
+            </div>
+            <a
+              href="#"
+              target="_blank"
+              class="col-12 col-sm-7 btn btn-violet pt-2"
+              >Join now</a
+            >
+          </div>
+          <div
+            class="col-12 col-sm-7 right-block"
+            data-aos="flip-right"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+          >
+            <img
+              src="https://letsgtok.com/static/media/homepage_3.d2e8637c.svg"
+              alt="1"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="section-pills d-sm-block">
+        <div class="options">
+          <div
+            class="share-pill"
+            data-aos="fade-down-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+          >
+            Share Feelings
+          </div>
+          <div
+            class="trade-pill"
+            data-aos="fade-down-left"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+          >
+            Trade Feelings
+          </div>
+        </div>
+
+        <div class="feelings-discrip">
+          <div>
+            <img src="./mobile.png" />
+          </div>
+          <div class="feelings-box">
+            <p class="box-text">
+              Sharing your feelings has never been this easier before. Express
+              your feelings in a judgement free environment, where they are
+              matterred.Sharing is liberating at Lers Gtok.Even anonymously
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="section-map d-none d-sm-block">
+        <div class="imgs">
+          <img class="map-images" src="activities.svg" alt="1" />
+        </div>
+        <img class="map" src="map.svg" alt="1" />
+
+        <div class="btn btn-violet pt-2">Start Sharing</div>
+      </div>
+
+      <footer class="l-form" data-aos="zoom-in-down" data-aos-offset="200">
+        <form class="form" id="contactForm">
+          <h1 class="form__title">Contact us</h1>
+          <div class="alert" data-aos="zoom-in">
+            Your Message has been sent.
+          </div>
+          <div class="form__div">
+            <input type="text" id="name" class="form__input" placeholder=" " />
+            <label for="" class="form__label">Name</label>
+          </div>
+          <div class="form__div">
+            <input type="text" id="email" class="form__input" placeholder=" " />
+            <label for="" class="form__label">Email</label>
+          </div>
+
+          <div class="form__div">
+            <textarea
+              id="msg"
+              class="form__input message"
+              placeholder=" "
+              rows="5"
+              cols="10"
+            ></textarea>
+            <label for="" class="form__label">Message</label>
+          </div>
+
+          <input type="submit" id="btn" class="form__button" value="Submit" />
+        </form>
+      </footer>
+    </div>
+
+    <!-- partial -->
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.8.0/firebase.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
