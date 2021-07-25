@@ -16,7 +16,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css"
     />
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./styles.css" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
 
@@ -119,38 +119,53 @@
           <img class="map-images" src="activities.svg" alt="1" />
         </div>
         <img class="map" src="map.svg" alt="1" />
-
-        <div class="btn btn-violet pt-2">Start Sharing</div>
       </div>
+      <div class="btn btn-violet btn-share pt-2">Start Sharing</div>
+      <footer class="" data-aos="zoom-in-down" data-aos-offset="200">
+        <div class="contact-form l-form">
+          <form class="form" id="contactForm">
+            <h1 class="form__title">Contact us</h1>
+            <div class="alert">Your Message has been sent.</div>
+            <div class="form__div">
+              <input
+                type="text"
+                id="name"
+                class="form__input"
+                placeholder=" "
+              />
+              <label for="" class="form__label">Name</label>
+            </div>
+            <div class="form__div">
+              <input
+                type="text"
+                id="email"
+                class="form__input"
+                placeholder=" "
+              />
+              <label for="" class="form__label">Email</label>
+            </div>
 
-      <footer class="l-form" data-aos="zoom-in-down" data-aos-offset="200">
-        <form class="form" id="contactForm">
-          <h1 class="form__title">Contact us</h1>
-          <div class="alert" data-aos="zoom-in">
-            Your Message has been sent.
-          </div>
-          <div class="form__div">
-            <input type="text" id="name" class="form__input" placeholder=" " />
-            <label for="" class="form__label">Name</label>
-          </div>
-          <div class="form__div">
-            <input type="text" id="email" class="form__input" placeholder=" " />
-            <label for="" class="form__label">Email</label>
-          </div>
+            <div class="form__div">
+              <textarea
+                id="msg"
+                class="form__input message"
+                placeholder=" "
+                rows="5"
+                cols="10"
+              ></textarea>
+              <label for="" class="form__label">Message</label>
+            </div>
 
-          <div class="form__div">
-            <textarea
-              id="msg"
-              class="form__input message"
-              placeholder=" "
-              rows="5"
-              cols="10"
-            ></textarea>
-            <label for="" class="form__label">Message</label>
-          </div>
+            <input type="submit" id="btn" class="form__button" value="Submit" />
+          </form>
+        </div>
 
-          <input type="submit" id="btn" class="form__button" value="Submit" />
-        </form>
+        <ul class="footer-links">
+          <li><a href="">Help Centre</a></li>
+          <li><a href="">Terms and Conditions</a></li>
+          <li><a href="">FAQ</a></li>
+          <li><a href="">Privacy Policy</a></li>
+        </ul>
       </footer>
     </div>
 
